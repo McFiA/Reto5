@@ -85,7 +85,7 @@ public class ReservationServicio {
         return new Status (completed.size(), cancelled.size());
     } 
     public List<Reservation> informePeriodoTiempoReservas(String datoA, String datoB){
-        SimpleDateFormat parser = new SimpleDateFormat("yyyy-mm-dd");
+        SimpleDateFormat parser = new SimpleDateFormat("yyyy-MM-dd");
         Date a = new Date();
         Date b = new Date();
         
